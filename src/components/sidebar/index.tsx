@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-import React from "react";
-
->>>>>>> f9bd1e1 (Primary commit)
 const SidebarCard = ({ className }: { className: string }) => {
   return (
     <div

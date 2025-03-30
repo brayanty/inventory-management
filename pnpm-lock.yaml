@@ -13,11 +13,7 @@ importers:
         version: 5.2.5
       '@tailwindcss/vite':
         specifier: ^4.0.14
-<<<<<<< HEAD
         version: 4.0.15(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))
-=======
-        version: 4.0.15(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2))
->>>>>>> f9bd1e1 (Primary commit)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -40,12 +36,9 @@ importers:
       '@eslint/js':
         specifier: ^9.21.0
         version: 9.23.0
-<<<<<<< HEAD
       '@types/node':
         specifier: ^22.13.14
         version: 22.13.14
-=======
->>>>>>> f9bd1e1 (Primary commit)
       '@types/react':
         specifier: ^19.0.10
         version: 19.0.12
@@ -54,11 +47,7 @@ importers:
         version: 19.0.4(@types/react@19.0.12)
       '@vitejs/plugin-react-swc':
         specifier: ^3.8.0
-<<<<<<< HEAD
         version: 3.8.1(@swc/helpers@0.5.15)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))
-=======
-        version: 3.8.1(@swc/helpers@0.5.15)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2))
->>>>>>> f9bd1e1 (Primary commit)
       eslint:
         specifier: ^9.21.0
         version: 9.23.0(jiti@2.4.2)
@@ -79,17 +68,10 @@ importers:
         version: 8.27.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.7.3)
       vite:
         specifier: ^6.2.0
-<<<<<<< HEAD
         version: 6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)
       vite-tsconfig-paths:
         specifier: ^5.1.4
         version: 5.1.4(typescript@5.7.3)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))
-=======
-        version: 6.2.2(jiti@2.4.2)(lightningcss@1.29.2)
-      vite-tsconfig-paths:
-        specifier: ^5.1.4
-        version: 5.1.4(typescript@5.7.3)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2))
->>>>>>> f9bd1e1 (Primary commit)
 
 packages:
 
@@ -573,12 +555,9 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-<<<<<<< HEAD
   '@types/node@22.13.14':
     resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
 
-=======
->>>>>>> f9bd1e1 (Primary commit)
   '@types/react-dom@19.0.4':
     resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
     peerDependencies:
@@ -1152,12 +1131,9 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-<<<<<<< HEAD
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-=======
->>>>>>> f9bd1e1 (Primary commit)
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
@@ -1542,33 +1518,22 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.0.15
       '@tailwindcss/oxide-win32-x64-msvc': 4.0.15
 
-<<<<<<< HEAD
   '@tailwindcss/vite@4.0.15(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))':
-=======
-  '@tailwindcss/vite@4.0.15(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2))':
->>>>>>> f9bd1e1 (Primary commit)
     dependencies:
       '@tailwindcss/node': 4.0.15
       '@tailwindcss/oxide': 4.0.15
       lightningcss: 1.29.2
       tailwindcss: 4.0.15
-<<<<<<< HEAD
       vite: 6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)
-=======
-      vite: 6.2.2(jiti@2.4.2)(lightningcss@1.29.2)
->>>>>>> f9bd1e1 (Primary commit)
 
   '@types/estree@1.0.6': {}
 
   '@types/json-schema@7.0.15': {}
 
-<<<<<<< HEAD
   '@types/node@22.13.14':
     dependencies:
       undici-types: 6.20.0
 
-=======
->>>>>>> f9bd1e1 (Primary commit)
   '@types/react-dom@19.0.4(@types/react@19.0.12)':
     dependencies:
       '@types/react': 19.0.12
@@ -1654,17 +1619,10 @@ snapshots:
       '@typescript-eslint/types': 8.27.0
       eslint-visitor-keys: 4.2.0
 
-<<<<<<< HEAD
   '@vitejs/plugin-react-swc@3.8.1(@swc/helpers@0.5.15)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
       '@swc/core': 1.11.11(@swc/helpers@0.5.15)
       vite: 6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)
-=======
-  '@vitejs/plugin-react-swc@3.8.1(@swc/helpers@0.5.15)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2))':
-    dependencies:
-      '@swc/core': 1.11.11(@swc/helpers@0.5.15)
-      vite: 6.2.2(jiti@2.4.2)(lightningcss@1.29.2)
->>>>>>> f9bd1e1 (Primary commit)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -2161,50 +2119,32 @@ snapshots:
 
   typescript@5.7.3: {}
 
-<<<<<<< HEAD
   undici-types@6.20.0: {}
 
-=======
->>>>>>> f9bd1e1 (Primary commit)
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
 
   uuid@11.1.0: {}
 
-<<<<<<< HEAD
   vite-tsconfig-paths@5.1.4(typescript@5.7.3)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)):
-=======
-  vite-tsconfig-paths@5.1.4(typescript@5.7.3)(vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2)):
->>>>>>> f9bd1e1 (Primary commit)
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.7.3)
     optionalDependencies:
-<<<<<<< HEAD
       vite: 6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)
-=======
-      vite: 6.2.2(jiti@2.4.2)(lightningcss@1.29.2)
->>>>>>> f9bd1e1 (Primary commit)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-<<<<<<< HEAD
   vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2):
-=======
-  vite@6.2.2(jiti@2.4.2)(lightningcss@1.29.2):
->>>>>>> f9bd1e1 (Primary commit)
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
       rollup: 4.36.0
     optionalDependencies:
-<<<<<<< HEAD
       '@types/node': 22.13.14
-=======
->>>>>>> f9bd1e1 (Primary commit)
       fsevents: 2.3.3
       jiti: 2.4.2
       lightningcss: 1.29.2
