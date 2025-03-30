@@ -48,45 +48,43 @@ function useProducts() {
   return { products, selectedProducts, handleSelectionChange };
 }
 
-function Product({ className }: { className: string }) {
+function Product({}) {
   const { products, selectedProducts, handleSelectionChange } = useProducts();
 
   return (
     <div
-      className={`relative overflow-y-scroll overflow-hidden h-full rounded-2xl ${className}`}
+      className={`relative overflow-y-scroll overflow-hidden h-full rounded-2xl`}
     >
-      <div className="w-full flex flex-col">
-        <table className="w-full text-sm text-left rtl:text-right text-gray-400 dark:text-gray-300 rounded-2xl">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-600 dark:text-gray-300">
-            <tr>
-              <th scope="col" className="text-center">
-                Selecionar
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Producto
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Categoria
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Total
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Precio
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <RenderProducts
-              products={products}
-              onSelectionChange={handleSelectionChange}
-            />
-          </tbody>
-        </table>
-        {selectedProducts.length > 0 && (
-          <ShoppingSelect products={selectedProducts} />
-        )}
-      </div>
+      <table className=" table-auto border-collapse w-full text-sm text-left rtl:text-right text-gray-400 dark:text-gray-300 rounded-2xl">
+        <thead className=" text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-600 dark:text-gray-300">
+          <tr>
+            <th scope="col" className="text-center">
+              Selecionar
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Producto
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Categoria
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Total
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Precio
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <RenderProducts
+            products={products}
+            onSelectionChange={handleSelectionChange}
+          />
+        </tbody>
+      </table>
+      {selectedProducts.length > 0 && (
+        <ShoppingSelect products={selectedProducts} />
+      )}
     </div>
   );
 }
