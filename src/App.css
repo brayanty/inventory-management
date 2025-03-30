@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src: "@fontsource/roboto/400.css";
+}
+
+@import "tailwindcss";
+
+
+body{
+    background-color: black;
+    font-family: Roboto;
+}
